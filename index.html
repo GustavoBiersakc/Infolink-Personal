@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoLink-Personal</title>
+    <link href="">
+</head>
+<div class="contenedor">
+    <button class="link" id="Facebook">
+        <img class="icon" src="https://img.icons8.com/color/48/facebook-circled--v2.png" alt="">
+        Facebook
+    </button>
+    <button class="link" id="Instagram">
+        <img class="icon" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="">
+        Instagram
+    </button>
+    <button class="link" id="LinkedIn">
+        <img class="icon" src="https://img.icons8.com/color/48/linkedin.png" alt="">
+        LinkedIn
+    </button>
+    <button class="link" id="Spotify">
+        <img class="icon" src="https://img.icons8.com/fluency/48/spotify.png" alt="">
+        Spotify
+    </button>
+    <button class="link" id="Twitch">
+        <img class="icon" src="https://img.icons8.com/3d-fluency/94/twitch.png" alt="">
+        Twitch
+    </button>
+    <button class="link" id="Tiktok">
+        <img class="icon" src="https://img.icons8.com/color/48/tiktok--v1.png" alt="">
+        Tiktok
+    </button>
+    <button class="link" id="Github">
+        <img class="icon" src="https://img.icons8.com/glyph-neue/64/github.png" alt="">
+        GitHub
+    </button>
+</div>
+
+<script>
+    document.getElementById("Facebook").addEventListener("click", function(){
+        window.location.href = "https://www.facebook.com/20.05.90.1.06.12AZM"
+    });
+
+    document.getElementById("Instagram").addEventListener("click", function(){
+        window.location.href = "https://www.instagram.com/gustavodev.py/"
+    });
+
+    document.getElementById("LinkedIn").addEventListener("click", function(){
+        window.location.href = "https://www.linkedin.com/in/angel-gustavo-hernandez-hernandez-297566282/?trk=opento_sprofile_details"
+    });
+
+    document.getElementById("Spotify").addEventListener("click", function(){
+        window.location.href = "https://open.spotify.com/user/qa7sig65sa62cfgevs4wz61jw?si=121dac7ca67a4c38"
+    });
+
+    document.getElementById("Twitch").addEventListener("click", function(){
+        window.location.href = "https://www.twitch.tv/rivers_gg"
+    });
+
+    document.getElementById("Tiktok").addEventListener("click", function(){
+        window.location.href = "https://www.tiktok.com/@snkgustavo?is_from_webapp=1&sender_device=pc"
+    });
+
+    document.getElementById("Github").addEventListener("click", function(){
+        window.location.href = "https://github.com/GustavoBiersakc"
+    });
+</script>
+<body>
+    <style>
+        body{
+            background: url(fondo-abstracto-blanco_23-214882.jpg);
+        }
+        .contenedor{
+            position: relative;
+            display: grid;
+            place-items: center;
+        }
+
+        div{
+            display: grid;
+            align-content: center;
+            all: initial;
+            flex-direction: column;
+
+            .icon{
+                position: relative;
+                width: 30px;
+                top: 10%;
+                left: -5%;
+            }
+        }
+        button{
+            color: #fb71b4;
+            background-color: transparent;
+            border-color: #c2b2f8;
+            border-radius: 25px;
+            width: 300px;
+            height: 50px;
+            margin-top: 30px;
+            font-family: cursive;
+            font-size: large;
+        }
+
+    </style>
+</body>
+</html>
