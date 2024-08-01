@@ -15,6 +15,10 @@
         <img class="icon" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="">
         Instagram
     </button>
+    <button class="link" id="Threads">
+        <img class="icon" src="https://img.icons8.com/pulsar-line/48/threads.png" alt="">
+        Threads
+    </button>
     <button class="link" id="LinkedIn">
         <img class="icon" src="https://img.icons8.com/color/48/linkedin.png" alt="">
         LinkedIn
@@ -45,6 +49,10 @@
     document.getElementById("Instagram").addEventListener("click", function(){
         window.location.href = "https://www.instagram.com/gustavodev.py/"
     });
+
+    document.getElementById("Threads").addEventListener("click", function(){
+        window.location.href = "https://www.threads.net/@gustavodev.py?xmt=AQGzDZPBfLAssV1qYRm8uHxN95RADJByUUxb8CUch9Zw0BU"
+    })
 
     document.getElementById("LinkedIn").addEventListener("click", function(){
         window.location.href = "https://www.linkedin.com/in/angel-gustavo-hernandez-hernandez-297566282/?trk=opento_sprofile_details"
@@ -85,23 +93,23 @@
 
             .icon{
                 position: relative;
-                width: 30px;
+                width: 35px;
                 top: 10%;
-                left: -5%;
+                left: auto;
+                text-align: left;
             }
         }
         button{
-            color: #fb71b4;
+            color: #d3458c;
             background-color: transparent;
-            border-color: #c2b2f8;
-            border-radius: 25px;
+            border-color: #f8b4e4;
+            border-radius: 21px;
             width: 300px;
             height: 50px;
             margin-top: 30px;
             font-family: cursive;
-            font-size: large;
+            font-size: 180%;
         }
-
     </style>
 </body>
 </html>
